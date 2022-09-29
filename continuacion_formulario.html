@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Tarea HTML_Formularios de Omar Martinez</title>
+  </head>
+  <body>
+    <form>
+    
+    <!-- Control para indicar la fecha -->
+        <p>A continuación vuelva a seleccionar la fecha</p>
+            <input type="date" name="fecha"/>
+            <br> <!-- Saltos de linea -->
+            <br>
+            
+    <!-- Control para elegir ficheros -->
+        <p>
+            Subir un archivo
+            <input type="file" name="archivo"/>
+        </p>
+        <br> <!-- Saltos de linea -->
+        
+    <!-- Estos son los Radiobuttons -->
+        <p>A continuación selecciona tu procesador:</p>
+        <input type="radio" name="procesador" value="procesadoramd"/> AMD 
+        <input type="radio" name="procesador" value="procesadorintel_i5"/> Intel i5
+        <input type="radio" mame="procesador" value="procesadorintel_i7"/> Intel i7
+        <br> <!-- Saltos de linea -->
+        <br>
+        
+    <!-- Creación cuadros de texto -->
+        <p>Introduce tu nombre, tus apellidos y tu dirección</p>
+        <input type="text" name="nombre" placeholder="Nombre"/>
+        <input type="text" name="apellidos" placeholder="Apellidos"/>
+        <input type="text" name="direccion" placeholder="Dirección"/>
+        <br> <!-- Saltos de linea -->
+        <br>
+        
+    <!-- Colores a elegir -->
+        <p>
+            Puedes elegir el color que más te guste
+            <input type="color" name="color"/>
+        </p>
+        
+    <!-- Area para escribir -->
+        <p>En el siguiente apartado puedes dejar tus comentarios</p>
+        <textarea placeholder="Deja auí tus comentarios :D" rows="6" cols="59"></textarea>
+        
+    <!-- Control para indicar la fecha -->
+        <p>Esta fecha es para enviar tus comentarios</p>
+            <input type="date" name="fecha"/>
+            <br> <!-- Saltos de linea -->
+            <br>
+            
+    <!-- Creación de la lista desplegable de idiomas -->
+        <p>Lista desplegable de idiomas</p>
+        <select name="idiomas">
+            <option value="ingles">Inglés</option>
+            <option value="aleman">Alemán</option>
+            <option value="frances">Francés</option>
+        </select>
+        <br> <!-- Saltos de linea -->
+        <br>
+        
+    <!-- Control para indicar la hora -->
+        <p>Introduce una hora</p>
+            <input type="time" name="hora"/>
+            
+    <!-- Subir más ficheros -->
+        <p>
+            Subir otro archivo
+            <input type="file" name="archivo"/>
+            <br><br>
+            
+    <!-- Checkboxes -->
+        <p>Verifica nuevamente tu Sexo</p>
+            <input type="checkbox" name="sexo" value="sexomujer"/>Mujer
+            <input type="checkbox" name="sexo" value="sexohombre"/>Hombre
+            <br><br>
+
+    </form>
+        <p>Si deseas regresar al Formulario anterior <a href="index.html" rel="noopener noreferrer">aquí</a></p>
+  </body>
+</html>
